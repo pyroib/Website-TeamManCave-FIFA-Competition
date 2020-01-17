@@ -28,7 +28,7 @@ N/A
 * [MySQL](https://www.mysql.com)
 * [JQuery](https://jquery.com)
 * [CSS]
-* [http://www.wampserver.com/en/](https://www.mysql.com)
+* [WAMP](https://www.mysql.com)
 
 ## Contributing
 
