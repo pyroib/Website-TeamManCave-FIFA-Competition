@@ -34,10 +34,6 @@ N/A
 
 No longer applicable. This project has ceased.
 
-## Versioning
-
-[SemVer](http://semver.org/)
-
 ## Authors
 
 * **Ian Blott** - [blott.com.au](http://blott.com.au)
