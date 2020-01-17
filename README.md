@@ -1,6 +1,3 @@
-# au-com-tipping-comp-teammancave
-
-
 # TeamManCave FIFA 18-19 Competition
 
 The facebook group TeamManCave by MCD productions hosted a season long FIFA competition where playeres were randomly drawn teams to play in a 38 game competition. These games were played weekly and online against other cometitors. The site logged games played and fixctures list aswell as a points table.
@@ -39,15 +36,19 @@ No longer applicable. This project has ceased.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+[SemVer](http://semver.org/)
 
 ## Authors
 
-* **Ian Blott** - *Initial work* - [bLott.com.au](https://github.com/Pyroib)
+* **Ian Blott** - *All Developement work* - [bLott.com.au](https://github.com/Pyroib)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Copyright (C) 2018-2019 {Ian Blott} <git_connect@blott.com.au>
+This file is part of {project}.
+
+ * This project can not be copied and/or distributed without the express
+ * permission of {Ian Blott}
 
 ## Acknowledgments
 
