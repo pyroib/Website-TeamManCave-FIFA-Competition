@@ -1,6 +1,6 @@
 # TeamManCave FIFA 18-19 Competition
 
-The facebook group TeamManCave by MCD productions hosted a season long FIFA competition where playeres were randomly drawn teams to play in a 38 game competition. These games were played weekly and online against other cometitors. The site logged games played and fixctures list aswell as a points table.
+The facebook group TeamManCave by MCD productions hosted a season long FIFA competition where playeres were randomly drawn teams to play in a 38 game, 308 week FIFA competition. These games were played weekly and online against other cometitors. The site logged games played and fixctures list aswell as a points table.
 
 ## Getting Started
 
