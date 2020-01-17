@@ -40,7 +40,7 @@ No longer applicable. This project has ceased.
 
 ## Authors
 
-* **Ian Blott** - *All Developement work* - [blott.com.au](https://github.com/Pyroib)
+* **Ian Blott** - [blott.com.au](http://blott.com.au)
 
 ## License
 
