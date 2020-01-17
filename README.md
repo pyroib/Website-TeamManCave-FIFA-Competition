@@ -10,18 +10,6 @@ Instructions to install this site locally are not available.
 
 PHP, MySQL
 
-### Installing
-
-N/A
-
-## Running the tests
-
-N/A
-
-## Deployment
-
-N/A
-
 ## Built With
 
 * [PHP](https://www.php.net)
