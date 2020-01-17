@@ -40,15 +40,14 @@ No longer applicable. This project has ceased.
 
 ## Authors
 
-* **Ian Blott** - *All Developement work* - [bLott.com.au](https://github.com/Pyroib)
+* **Ian Blott** - *All Developement work* - [blott.com.au](https://github.com/Pyroib)
 
 ## License
 
-Copyright (C) 2018-2019 {Ian Blott} <git_connect@blott.com.au>
-This file is part of {project}.
+Copyright (C) 2018-2019 Ian Blott <git_connect@blott.com.au>
 
- * This project can not be copied and/or distributed without the express
- * permission of {Ian Blott}
+This project can not be copied and/or distributed without the express
+permission of Ian Blott
 
 ## Acknowledgments
 
