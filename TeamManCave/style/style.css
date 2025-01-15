@@ -1,0 +1,248 @@
+*{ box-sizing: border-box; }
+body{ background-color:#048394; font-family: 'Open Sans', sans-serif; color:#048394;}
+p{line-height:1.5em; }
+li{ margin:5px 0 5px 0; }
+label{ width:200px; display:inline-block; }
+select,
+input{ width:10%; margin:0 5px; padding:5px; border:1px solid #048394; border-radius: 5px; background-color:#FFF; }
+button{width:15%; margin-right:5px; padding:5px; border-radius: 5px; font-weight:bold; border:1px solid #048394; }
+button.disabled{ color:#000; background-color:#eee; border:1px solid #aaa; }
+button.enabled{ color:#FFF; background-color:#048394; border:1px solid #048394; }
+
+.gameScoreSaved{ border: 1px solid #00FA9A; background-color:#90EE90; }
+.gameScoreFailed{ border: 1px solid #DB7093; background-color:#D8BFD8; }
+
+.hometeam,
+.awayteam,
+.scores{position:relative;z-index:5;}
+
+.scores{width:34%; text-align:center; }
+.scores input{text-align:center; width:20%; margin:0 1%; }
+.scores button{ width:auto; }
+
+.hometeam{ text-align:right;}
+.awayteam{ text-align:left;}
+.hometeam, .awayteam{ width:33%; }
+.dateTitle{ color:#FFF; font-weight:bold; background-color: #048394; padding:5px;	display: block !important;  
+	text-align:center; width: auto; margin: 5px;  }
+	
+.relaseDate, .doubleGameWeek{  color:#fff; font-weight:bolder; padding:5px; text-align:center;  
+	display: block !important; width: auto; }
+	
+.headerImage{text-align:center;}
+.headerImage a img { max-width: 100%; height: auto; }
+.pageController{max-width:1000px; margin:auto; background-color:#fff; padding:10px;}
+
+	.smallScreenText{ display:none; }
+	.largeScreenText{ display:block; }
+
+.btn:hover { cursor:pointer !important; }
+
+.awayteamsim,
+.hometeamsim{
+	width:44px;
+	height:20px;
+	background-image:url('/images/computer.png'); 
+	background-size: 100% 100%; 
+	display:inline-block; 
+	margin:0 5px; 
+	vertical-align: middle;
+}
+.nosim{	width:44px;
+	height:20px;display:inline-block;
+	margin:0 5px;}
+
+.smlName strong { vertical-align:middle; }
+
+.homeSim,
+.awaySim{
+	width:44px;
+	height:20px;
+	background-image:url('/images/ps4.png'); 
+	background-size: 100% 100%; 
+	display:inline-block; 
+	margin:0 5px; 
+	vertical-align: middle;
+}
+.homeSim:hover,
+.awaySim:hover { cursor:pointer !important; }
+
+
+.savingOverlay{ 
+	background-color:#FFF;
+	position: absolute; 
+	top: 0px; 
+	left: 0px; 
+	height: 100%; 
+	width: 100%; 
+	text-align: center; 
+	font-weight:bolder; 
+	color:#FFF;
+	z-index:10;
+	overflow:hidden;
+	
+} 
+.savingOverlay img{ 
+	height: 100%;
+	max-height: 90px;
+	top: -20px;
+	position: relative;
+}
+
+.colHolder{ width:100%; display:block; }
+.userList,
+.teamList{ width:50%; display:inline-block; vertical-align:top;}
+
+.msg{ width:75%; text-align:center; font-size: 2em; color: darkgreen; background-color: #56CC9D; 
+	border: 1px solid #56CC9D;border-radius: 5px; margin:5px auto; }
+
+.blink_text {
+	animation:1s blinker linear infinite;
+	-webkit-animation:1s blinker linear infinite;
+	-moz-animation:1s blinker linear infinite;
+}
+
+@-moz-keyframes blinker { 
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker { 
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+@keyframes blinker { 
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+}
+
+
+.me{background-color: #87aab5; color:white; font-weight:bolder;}
+
+
+.table{ border:1px solid #048394; margin:auto; width:100%; }
+.tbody .tableRow{ padding:2px; border-bottom:1px solid #42aab5; }
+
+.thead{ color:#FFF; font-weight:bold; 
+    margin: 0px;
+    padding: 0 !important;
+	}
+	
+.table, .thead, .tableRow{display:block; width:100%; }
+.tableCell{ display:inline-block; padding:5px 0; }
+
+.thead { background-color: #333; color:#fff; font-weight:bolder; padding:5px; text-align:center;  
+	display: block !important; width: auto; }
+
+.name { width:37%; }
+.counter, .played, .win, .draw, .lose, .gf, .ga, .gd, .points {text-align:center; width:7%; }
+
+.tbody .tableRow .name{ width:37%;}
+.tbody .tableRow .counter{  width:7%;  }
+.tbody .tableRow .played,
+.tbody .tableRow .win,
+.tbody .tableRow .draw,
+.tbody .tableRow .lose,
+.tbody .tableRow .gf,
+.tbody .tableRow .ga,
+.tbody .tableRow .gd,
+.tbody .tableRow .points{ border-left:1px solid #42aab5; width:7%;  }
+
+/*padding:5px 0; */
+.competitionTable .tableRow{  border-bottom:1px solid #42aab5; font-size:0.96em;  }
+
+.competitionTable .tableCell { vertical-align: middle; min-height:48px; line-height: 25px; }
+
+
+.teamColors{ display:inline-block; width:40px; height:30px; margin: 4px; vertical-align: middle; }
+.team_0ade7c2cf97f75d009975f4d720d1fa6c19f4897{background-image: linear-gradient(45deg, #8E1F2F 0%, #8E1F2F 45%, #F0BC42 55%, #F0BC42 100%); color: #FFF; }/* roma */
+.team_fa35e192121eabf3dabf9f5ea6abdbcbc107ac3b{background-image: linear-gradient(45deg, #000000 0%, #000000 45%, #fde100 55%, #fde100 100%); color: #FFF; } /* dortmund */
+.team_c097638f92de80ba8d6c696b26e6e601a5f61eb7{background-image: linear-gradient(0deg, #FFFFFF 0%, #FFFFFF 45%, #000000 55%, #000000 100%); color: #FFCD00; border:1px solid #000;} /* juve */
+.team_b7103ca278a75cad8f7d065acda0c2e80da0b7dc{background-image: linear-gradient(45deg, #003366 0%, #003366 45%, #DC052D 55%, #DC052D 100%); color: #FFF; } /* PSG */
+.team_d321d6f7ccf98b51540ec9d933f20898af3bd71e{background-image: linear-gradient(45deg, #0066B2 0%, #0066B2 45%, #DC052D 55%, #DC052D 100%); color: #FFF; } /* bayern */
+.team_80e28a51cbc26fa4bd34938c5e593b36146f5e0c{background-image: linear-gradient(45deg, #0164D4 0%, #0164D4 45%, #F0AB00 55%, #F0AB00 100%); color: #FFF; } /* boca */
+.team_c66c65175fecc3103b3b587be9b5b230889c8628{background-image: linear-gradient(45deg, #f90000 0%, #f90000 45%, #FFFFFF 55%, #FFFFFF 100%); color: #000;  border:1px solid #000; } /* riverplate */
+.team_511a418e72591eb7e33f703f04c3fa16df6c90bd{background-image: linear-gradient(45deg, #132257, #0207ff ); color: #fff;} /* spurs */
+.team_1352246e33277e9d3c9090a434fa72cfa6536ae2{background-image: linear-gradient(90deg, #FFFFFF 0%, #FFFFFF 45%, #000000 55%, #000000 100%); color: #FFCD00;  border:1px solid #000;} /* newcastle */
+.team_c5b76da3e608d34edb07244cd9b875ee86906328{background-image: linear-gradient(45deg, #FB090B 0%, #FB090B 45%, #000000 55%, #000000 100%); color: #FFF;} /* ac milan */
+
+.team_b1d5781111d84f7b3fe45a0852e59758cd7a87e5{background-image: linear-gradient(45deg, #FEBE10 0%, #FEBE10 30%, #00529F 35%, #00529F 65%, #EE324E 70%, #EE324E 100% ); color:#FFCD00; } /* Real Madrid */
+.team_fe5dbbcea5ce7e2988b8c69bcfdfde8904aabc1f{background-image: linear-gradient(45deg, #EDBB00 0%, #EDBB00 35%, #004D98 40%, #004D98 60%, #A50044 65%, #A50044 100%  ); color: #fff; } /* barca */
+.team_17ba0791499db908433b80f37c5fbc89b870084b{background-image: linear-gradient(45deg, #A29161 0%, #A29161 40%, #221F20 50%, #0068A8 60%, #0068A8 100%  ); color: #FFF; } /* inter */
+.team_91032ad7bbcb6cf72875e8e8207dcfba80173f7c{background-image: linear-gradient(90deg, #272E61 0%, #272E61 30%, #CB3524 40%, #CB3524 60%, #FFFFFF 70%, #FFFFFF 100% ); color:#FFCD00; } /*Atletico Madrid */
+.team_a72b20062ec2c47ab2ceb97ac1bee818f8b6c6cb{background-color: #0207ff; }   /* Napoli */
+.team_b888b29826bb53dc531437e723738383d8339b56{background-color: skyblue; } /* city */
+.team_bd307a3ec329e10a2cff8fb87480823da114f8f4{background-color: #034694; color: #FFFFFF; } /* chelsea */
+.team_9e6a55b6b4563e652a23be9d623ca5055c356940{background-color: #EF0107; color: #FFFFFF; } /* Arsenal  */
+.team_356a192b7913b04c54574d18c28d46e6395428ab{background-color: #DA291C; color: #000000; } /* UTD */
+.team_3c26dffc8a2e8804dfe2c8a1195cfaa5ef6d0014{background-color: #C8102E; color: #ffffff; } /* liverpool */
+
+.weekDate{ margin: 0px; padding:0px !important; }
+
+.psnlist{ margin-left:20px; margin-bottom:20px; }
+
+
+.lrgName{width:45%}
+.smlScores{width:10%; text-align:center;}
+
+
+.smlName{width:31%; height: 62px;}
+.lgScores{width:38%; text-align:center; min-height: 62px !important;}
+
+.tableCell.lgScores,
+.tableCell.smlScores{ border-left:1px solid #ccc; border-right:1px solid #ccc; }
+
+
+.submitted_details{ font-size: 11px; }
+
+
+/*
+@media only screen and (min-width: 600px) {
+	.competitionTable .tableRow .awayteam{ padding-left:1%;; }
+	.competitionTable .tableRow .hometeam{ padding-right:1%; }
+}
+*/
+@media only screen and (max-width: 600px) {
+	.tableCell { text-align:Center; }
+	.table, .thead, .tableRow, .tableCell{display:block; width:100%; }
+	.relaseDate, .datetitle{ padding:5px 0; }
+	.thead{ padding:0px; }
+	.tableCell.scores{ border:0px }
+
+	.thead .tableRow .gf,
+	.thead .tableRow .ga,
+	.thead .tableRow .gd,
+	.tbody .tableRow .gf,
+	.tbody .tableRow .ga,
+	.tbody .tableRow .gd{ display:none;}
+	
+	
+	.thead .tableRow .counter,
+	.tbody .tableRow .counter{  width:10%; }
+	.thead .tableRow .name,
+	.tbody .tableRow .name{ width:40%; text-align:left;  white-space: nowrap; overflow: hidden; vertical-align: middle; }
+	.thead .tableRow .played,
+	.thead .tableRow .win,
+	.thead .tableRow .draw,
+	.thead .tableRow .lose,
+	.thead .tableRow .points,
+	.tbody .tableRow .played,
+	.tbody .tableRow .win,
+	.tbody .tableRow .draw,
+	.tbody .tableRow .lose,
+	.tbody .tableRow .points{ border-left:1px solid #42aab5; width:10%;  }
+
+	.smallScreenText{ display:block; }
+	.largeScreenText{ display:none; }
+	
+	
+	.weekDate .tableCell { width:auto !important; }
+	
+	.competitionTable .tbody .tableRow .awayteam,
+	.competitionTable .tbody .tableRow .hometeam{ text-align:center;  width:100%; padding:0px; display:block; }
+	
+}

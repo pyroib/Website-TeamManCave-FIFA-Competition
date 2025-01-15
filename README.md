@@ -28,7 +28,7 @@ No longer applicable. This project has ceased.
 
 ## License
 
-Copyright (C) 2018-2019 Ian Blott <git_connect@blott.com.au> - All Rights Reserved
+Copyright (C) 2018-2019 Ian Blott <git@blott.com.au> - All Rights Reserved
 
 This project can not be copied and/or distributed without the express permission of Ian Blott
 

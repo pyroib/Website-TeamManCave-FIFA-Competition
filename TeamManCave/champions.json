@@ -1,0 +1,62 @@
+{
+    "final": {
+        "away": "Final Home",
+        "home": "Final Away"
+    },
+    "semi_one": {
+        "away": "Semi 1 Home",
+        "home": "Semi 1 Away"
+    },
+    "semi_two": {
+        "away": "Semi 2 Home",
+        "home": "Semi 2 Away"
+    },
+    "quarter_one": {
+        "home": "Quarter Final 1 Home",
+        "away": "Quarter Final 1 Away"
+    },
+    "quarter_two": {
+        "home": "Quarter Final 2 Home",
+        "away": "Quarter Final 2 Away"
+    },
+    "quarter_three": {
+        "home": "Quarter Final 3 Home",
+        "away": "Quarter Final 3 Away"
+    },
+    "quarter_four": {
+        "home": "Quarter Final 4 Home",
+        "away": "Quarter Final 4 Away"
+    },
+    "sixteen_one": {
+        "home": "16 1 Home",
+        "away": "16 1 Away"
+    },
+    "sixteen_two": {
+        "home": "16 2 Home",
+        "away": "16 2 Away"
+    },
+    "sixteen_three": {
+        "home": "16 3 Home",
+        "away": "16 3 Away"
+    },
+    "sixteen_four": {
+        "home": "16 4 Home",
+        "away": "16 4 Away"
+    },
+    "sixteen_five": {
+        "home": "16 5 Home",
+        "away": "16 5 Away"
+    },
+    "sixteen_six": {
+        "home": "16 6 Home",
+        "away": "16 6 Away"
+    },
+    "sixteen_seven": {
+        "home": "16 7 Home",
+        "away": "16 7 Away"
+    },
+    "sixteen_eight": {
+        "home": "16 8 Home",
+        "away": "16 8 Away"
+    }
+}
